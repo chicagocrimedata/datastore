@@ -9,9 +9,9 @@
 
 ## src
 
-### pre-stash
+### stash
 
-- [pre-stash/split-socrata-years-into-days.py](preload/split-socrata-years-into-days.py)
+- [stash/split-socrata-years-into-days.py](stash/split-socrata-years-into-days.py)
     - Use named arguments
     - Throw error when both indir and outdir not provided
     - Functionalize!
