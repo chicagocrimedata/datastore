@@ -1,0 +1,7 @@
+: |> curl 'https://data.cityofchicago.org/api/views/c7ck-438e/rows.csv?accessType=DOWNLOAD' -o %o |> data/stashed/iucr-codes.csv
+# geospatial stuff
+: |> curl 'https://data.cityofchicago.org/api/views/z8bn-74gv/rows.csv?accessType=DOWNLOAD' -o %o |> data/stashed/police-district-stations.csv
+: |> curl 'https://data.cityofchicago.org/api/geospatial/fthy-xz3r?method=export&format=Original' -o %o |> data/stashed/shapefiles/police-districts-current.kmz
+: |> curl 'https://data.cityofchicago.org/Public-Safety/Boundaries-Police-Districts-deprecated-on-12-18-20/p3h8-xsd4' -o %o |> data/stashed/shapefiles/police-districts-pre-2012-12-18.zip
+: |> curl 'https://data.cityofchicago.org/api/geospatial/aerh-rz74?method=export&format=Original' -o %o |> data/stashed/shapefiles/police-beats-current.kmz
+: |> curl 'https://data.cityofchicago.org/api/views/kd6k-pxkv/files/Jnxp6pTo3afFXyCi2DKF3xt3CXm1mZOFBOa9swgeNmU?filename=PoliceBeats.ZIP' -o %o |> data/stashed/shapefiles/police-beats-pre-2012-12-18.zip

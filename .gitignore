@@ -1,4 +1,4 @@
-# Made special for CompCiv 2018
+.tup
 
 # names for data stash folders that shouldn't be committed
 data/tempstash
