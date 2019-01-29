@@ -27,3 +27,12 @@ Lucy Parsons Lab
 - https://lucyparsonslabs.com/posts/stop-and-frisk/
 - https://www.dropbox.com/sh/lq4uvm5bb2ikur7/AAB4AuGpbTvHFcMP8xq4rfsJa?dl=0
 
+Forms:
+
+https://www.chicagotribune.com/news/ct-met-contact-cards-stop-reports-police-gfx-20160226-htmlstory.html
+
+direct link:
+https://assets.documentcloud.org/documents/2722533/Contact-Card-Stop-Reports.pdf
+
+ACLU report on unreleased data:
+https://www.aclu-il.org/sites/default/files/wp-content/uploads/2015/03/ACLU_StopandFrisk_6.pdf (March 2015)
