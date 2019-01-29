@@ -1,0 +1,344 @@
+COLUMN NAME,COMMENTS
+CONTACT_CARD_ID,"Unique ID for the ISR version record - If there have been any revisions of the ISR, there can be multiple CONTACT_CARD_ID values per CARD_NO"
+CONTACT_TYPE_CD,"This field contains the Contact Type
+ CD                DESCRIPTION
+ INVSTG        Investigatory Stop
+ GANGLTR     Gang and Narcotics-Related Loitering"
+CARD_NO,"Unique identifying number for each ISR - If the ISR has any revisions, there will be multipel rows in this data set with the same CARD_NO and differentiated by the CONTACT_CARD_ID"
+CONTACT_DATE,This field contains the Date the stop occurred. Ex: 01-JAN-08   
+CONTACT_HOUR,"This field contains the Hour of the day the stop occurred. Ex: 00, 01, 14, 23  "
+SUBMITTING_BEAT_CD,"This field contains the CPD Beat that submitted the ISR. Ex: 0124, 1831, 2411  "
+JUVENILE_I,This field indicates if the Suspect is a Juvenile  
+CLOTHING_DESCR,This field contains a description of the Suspect's clothing  
+NAME_VERIFIED_I,"This field indicates if the Suspect's name has been verified by an ID (drivers license, state id, etc). MUST contain a value of Y or N.  "
+RD_NO,"This field contains the RD (Records Division) Number of a related case. Ex: HJ016827, HX000769"
+HOTSPOT_NO,"This field contains the Gang / Narcotic Hotspot number set by the department after analysis of gang and crime activity. Ex: 14-005-2&3-001, VZ1, 16422.  "
+EVENT_NO,"This field contains the Event Number. Ex: 1429401480, 01310.  "
+MISSION_NO,This field contains the specific directed or daily Mission Number assigned by district Supervisors  
+CPD_UNIT_NO,This field contains the CPD Unit number of the Officer(s) that conducted the stop
+CREATED_BY,This field contains the anonymized unique ID of the user who created the record  
+CREATED_DATE,This field contains the date the record was created  
+MODIFIED_BY,This field contains the anonymized unique ID of the User who modified the record  
+MODIFIED_DATE,This field contains the date the record was modified  
+AGE,"This field contains the Suspect's Age. Ex: 1, 22, 101  "
+AGE_TO,"This field contains the Suspect's approximate maximum Age. Ex: 28, 65   "
+SEX_CODE_CD,"This field contains the Suspect's Sex Code
+ Code    Description
+ F           FEMALE
+ M         MALE
+ X          UNKNOWN"
+RACE_CODE_CD,"This field contains the Suspect's Race Code
+ Code    Description
+ BLK        BLACK
+ WHI      WHITE
+ API        ASIAN/PACIFIC ISLANDER
+ WBH     BLACK HISPANIC
+ WWH   WHITE HISPANIC
+ I             AMER IND/ALASKAN NATIVE
+ U           UNKNOWN"
+HEIGHT,"This field contains the Suspect's Height. Ex: 0, 511, 704  "
+WEIGHT,"This field contains the Suspect's Weight. Ex: 2, 234, 607  "
+BUILD_CODE_CD,"This field contains the Suspect's Build Type Code
+ Code    Description
+ SLN       SLENDER
+ MED     MEDIUM
+ HEA      HEAVY
+ XXX      UNKNOWN
+ INF       INFANT"
+EYE_COLOR_CODE_CD,"This field contains the Suspect's Eye Color Code
+ Code    Description
+ BLK       BLACK
+ BLU       BLUE
+ BRO      BROWN
+ GRN      GREEN
+ GRY       GRAY
+ HAZ       HAZEL
+ MAR     MAROON
+ MUL     MULTICOLOR
+ PNK      PINK
+ XXX      UNKNOWN"
+HAIR_COLOR_CODE_CD,"This field contains the Suspect's Hair Color Code
+ Code    Description
+ BLK        BLACK
+ BLN        BLOND/STRAWBERRY
+ BRO       BROWN
+ GRY       GREY/PART GREY
+ RED       RED/AUBURN
+ SDY       SANDY
+ WHI     WHITE
+ XXX      UNKNOWN"
+HAIR_STYLE_CODE_CD,"This field contains the Suspect's Hair Style Code
+ Code    Description
+ AFRO       AFRO
+ BACK       BACK
+ BALD       BALD
+ BRDS       BRAIDS
+ BUN         BUN
+ COV         COMB OVER
+ CRS          CORN ROWS
+ CRWCT   CREW CUT
+ CURLY     CURLY
+ DREAD    DREADLOCKS
+ FADE        FADE
+ LOCKS     LOCKS
+ LONG      LONG
+ MED        MEDIUM
+ MOHAWK  MOHAWK
+ NAT        NATURAL
+ PARTED   PARTED
+ TAIL        PONY TAIL
+ TAILS      PONY TAILS
+ PROC     PROCESSED
+ SHAG     SHAG
+ SHAVE   SHAVED
+ SHORT   SHORT
+ STRT       STRAIGHT
+ STYLED  STYLED
+ TOUP     TOUPEE
+ XXX        UNKNOWN
+ WAVY    WAVY
+ WIG        WIG"
+COMPLEXION_CODE_CD,"This field contains the Suspect's Complexion Code
+ Code    Description
+ ALB       ALBINO
+ BLK       BLACK
+ DBR      DARK BROWN
+ DRK      DARK
+ FAR       FAIR
+ LBR       LIGHT BROWN
+ LGT       LIGHT
+ MBR     MEDIUM BROWN
+ MED     MEDIUM
+ OLV      OLIVE
+ RUD     RUDDY
+ SAL       SALLOW
+ XXX      UNKNOWN
+ YEL       YELLOW"
+STREET_NO,"This field contains the stop street number. Ex: 727, 5101, 10123  "
+STREET_DIRECTION_CD,"This field contains the stop street direction. Ex: N,S,E,W  "
+STREET_NME,"This field contains the stop street name. Ex: CICERO AV, HALSTED ST, 71 ST, 111 ST  "
+APT_NO,"This field contains the stop apartment number. Ex: 1A, 2, BSMT  "
+CITY,"This field contains the stop city. Ex: CHICAGO, BRIDGEVIEW  "
+STATE_CD,This field contains the stop state abbreviation. Ex: IL
+ZIP_CD,"This field contains the stop zip code. Ex: 60653, 60453  "
+HALF_ADDRESS_I,This field indicates if the STREET_NO of stop is a half value. Ex: 444 1/2. MUST contain a value of Y or N  
+DISTRICT,"This field contains District where the stop occurred. Ex: 02, 18 "
+SECTOR,This field contains the Sector number of the beat of stop. Ex: Beat 1532-Sector=153 (The 1st through 3rd positions of the 4 character BEAT) 
+BEAT,"This field contains the CPD Beat where the stop occurred. Ex: 0124, 1831, 2411 "
+AREA,"This field contains the CPD Area where the stop occurred. Ex: 1,2,3,4,5 "
+WARD,"This field contains the stop ward. Ex: 15, 28, 39 "
+RES_DISTRICT,"This field contains the CPD District the Suspect resides in. Ex: 01, 15, 22 "
+RES_SECTOR,This field contains the Sector number of the beat the Suspect resides in. Ex: Beat 2432-Sector=243 (The 1st through 3rd positions of the 4 character of RES_BEAT) 
+RES_BEAT,"This field contains the CPD Beat the Suspect resides in. Ex: 1533, 1711, 2222 "
+RES_AREA,"This field contains the CPD Area the Suspect resides in. Ex: 1, 2, 3, 4, or 5 "
+RES_WARD,"This field contains the Ward the Suspect resides in. Ex: 11, 25, 33 "
+BUS_DISTRICT,"This field contains the CPD District the Suspect resides in. Ex: 01, 15, 22 "
+BUS_SECTOR,This field contains the Sector number of the beat of the Suspect's Place of Business. Ex: Beat 2432-Sector=243 (The 1st through 3rd positions of the 4 character of BUS_BEAT) 
+BUS_BEAT,"This field contains the CPD Beat of the Suspect's Place of Business. Ex: 1533, 1711, 2222  "
+BUS_AREA,"This field contains the CPD Area of the Suspect's Place of Business. Ex: 1, 2, 3, 4, or 5 "
+BUS_WARD,"This field contains the Ward of the Suspect's Place of Business. Ex: 11, 25, 33 "
+SUBMITTING_UNIT,This field contains the CPD Unit number of the submitting beat 
+CONTACT_TYPE_DESCR,"This field contains the long name of CONTACT_TYPE_CD (For ISRs, either 'Investigatory Stop' or  'Gang and Narcotics-Related Loitering')"
+V_YEAR,This field contains the Vehicle Year  
+MAKE_CD,"This field contains the Vehicle Make Code. Ex: FORD, VOLK, CHEV"
+MAKE_DESCR,This field contains the Vehicle Make Description
+STYLE_CD,"This field contains the Vehicle Style Code. Ex: 4D, SW, BU"
+STYLE_DESCR,This field contains the Vehicle Style Description
+TYPE_CD,"This field contains the Vehicle Type
+Code         Description
+ CE            CONSTRUCTION EQUIPMENT
+ CYL          MOTORCYCLE/MOPED
+ DUN        DUNE BUGGY
+ FE             FARM AND GARDEN EQUIPMENT
+ GOF         GOLF CART - MOTORIZED
+ SNOW     SNOWMOBILE
+ TK            TRUCK
+ TL            TRAILER
+ ATV         ALL-TERRAIN
+ AUTO      AUTOMOBILE
+ PART       VEHICLE PART
+ AERO      AIRCRAFT
+ GRT        GO-CART
+ UNK       UNKNOWN"
+MODEL_DESCR,This field contains the Vehicle Model Description
+COLOR_TOP,"This field contains the color code for the top of the Vehicle
+ Code   Description
+ BGE    BEIGE
+ BLK    BLACK
+ BLU    BLUE
+ BRO    BROWN
+ BRZ    BRONZE
+ COL   MULTI - USE AS MUL/COL
+ COM   CHROME OR STAINLESS STEEL
+ CPR   COPPER+C29
+ CRM   CREAM OR IVORY
+ DBL   BLUE, DARK
+ DGR   GREEN, DARK
+ GLD   GOLD
+ GRN   GREEN
+ GRY   GRAY
+ LAV   LAVENDER
+ LBL   BLUE, LIGHT
+ LGR   GREEN, LIGHT
+ MAR   MAROON OR BURGUNDY
+ MUL   MULTI - USE AS MUL/COL
+ ONG   ORANGE
+ PLE   PURPLE
+ PNK   PINK
+ RED   RED
+ SIL   ALUMINUM OR SILVER
+ TAN   TAN
+ TRQ   TURQUOISE
+ WHI   WHITE
+ YEL   YELLOW
+ XXX   UNKNOWN
+ RST   RUST
+ LBR   BROWN, LIGHT
+ PEW   PEWTER
+ TEA   TEAL"
+COLOR_BOTTOM,"This field contains the color code for the bottom of the Vehicle
+ Code   Description
+ BGE    BEIGE
+ BLK    BLACK
+ BLU    BLUE
+ BRO    BROWN
+ BRZ    BRONZE
+ COL   MULTI - USE AS MUL/COL
+ COM   CHROME OR STAINLESS STEEL
+ CPR   COPPER+C29
+ CRM   CREAM OR IVORY
+ DBL   BLUE, DARK
+ DGR   GREEN, DARK
+ GLD   GOLD
+ GRN   GREEN
+ GRY   GRAY
+ LAV   LAVENDER
+ LBL   BLUE, LIGHT
+ LGR   GREEN, LIGHT
+ MAR   MAROON OR BURGUNDY
+ MUL   MULTI - USE AS MUL/COL
+ ONG   ORANGE
+ PLE   PURPLE
+ PNK   PINK
+ RED   RED
+ SIL   ALUMINUM OR SILVER
+ TAN   TAN
+ TRQ   TURQUOISE
+ WHI   WHITE
+ YEL   YELLOW
+ XXX   UNKNOWN
+ RST   RUST
+ LBR   BROWN, LIGHT
+ PEW   PEWTER
+ TEA   TEAL"
+FO_EMPLOYEE_ID,This field contains the anonymized unique ID of the First Officer conducting the ISR
+SO_EMPLOYEE_ID,This field contains the anonymized unique ID of the Second Officer conducting the ISR
+SUPV_EMPLOYEE_ID,This field contains the anonymized unique ID of the Supervising CPD personnel
+GANG,This field contains the Suspect's Gang Name 
+KNOWN_HANGOUT,This field contains information about a known Hangout of the Suspect 
+FACTION_NAME,This field contains the Suspect's Gang Faction Name.
+CONTACT_CARD_STATUS_CD,"This field conains the ISR Status Code (PRE, SUB, APP, ARC, FIN)"
+COMPLETION_I,"This field indicates if the requirements for submission have been met, used by ISR application"
+LOCATION_CD,This field contains the location code of the stop
+HANDCUFFED_I,This field indicates if Suspect was handcuffed
+VEHICLE_INVOLVED_I,This field indicates if a vehicle was involded in the stop
+DISPERSAL_TIME,This field contains the time that any dispersal action occurred
+NUMBER_OF_PERSONS_DISPERSED,This field contains the numbers person dispersed in a dispersal action
+GANG_LOOKOUT_I,Gang Information - Gang Lookout?
+GANG_SECURITY_I,Gang Information - Gang Security?
+INTIMIDATION_I,Gang Information - Intimidation?
+SUSPECT_NARCOTIC_ACTIVITY_I,Gang Information - Suspect Narcotic Activity?
+ENFORCEMENT_ACTION_TAKEN_I,This field indicates if any enforcement action was taken (e.g. ARR = Arrest)
+INDICATIVE_DRUG_TRANSACTION_I,Reasonable Articulable Suspicion Factors That Led to the Stop - Actions Indicative of Engaging in Drug Transaction?
+INDICATIVE_CASING_I,"Reasonable Articulable Suspicion Factors That Led to the Stop - Action Indicative of ""Casing"" Victim or Location?"
+FITS_DESCRIPTION_I,Reasonable Articulable Suspicion Factors That Led to the Stop - Fits Description From Flash Message?
+PROXIMITY_TO_CRIME_I,Reasonable Articulable Suspicion Factors That Led to the Stop - Proximity to the Reported Crime Location?
+FITS_DESCRIPTION_OFFENDER_I,Reasonable Articulable Suspicion Factors That Led to the Stop - Fits Description of an Offender as Described by Victim or Witness?
+GANG_NARCOTIC_RELATED_I,Reasonable Articulable Suspicion Factors That Led to the Stop - Gang / Narcotic Related Enforcement?
+OTHER_FACTOR_I,Reasonable Articulable Suspicion Factors That Led to the Stop - Other?
+PAT_DOWN_I,This field indicates if a Protective Pat Down was conducted
+PAT_DOWN_CONSENT_I,This field indicates if a Protective Pat Down was based on consent
+PAT_DOWN_RECEIPT_GIVEN_I,This field indicates if a Protective Pat Down receipt was given
+VERBAL_THREATS_I,Verbal Threats of Violence by Suspect?
+KNOWLEDGE_OF_PRIOR_I,Knowledge of Suspect's Prior Criminal Violent Behavior / Use of Force / Use of Weapon?
+ACTIONS_INDICATIVE_VIOLENCE_I,Actions Indicative of Engaging in Violent Behavior?
+VIOLENT_CRIME_I,Violent Crime Suspected?
+SUSPICIOUS_OBJECT_I,Suspicious Bulge / Object?
+OTHER_REASONABLE_SUSPICION_I,Other Reasonable Suspicion of Weapons?
+WEAPON_OR_CONTRABAND_FOUND_I,Was a Weapon or Contraband Discovered as a Result of the Protective Pat Down?
+FIREARM_I,This field indicates if a Firearm was discovered as a result of a Protective Pat Down
+COCAINE_I,This field indicates if a Firearm was discovered as a result of a Protective Pat Down
+COCAINE_AMOUNT,This field contains the amount of Cocaine discovered as a result of a Protective Pat Down
+HEROIN_I,This field indicates if Heroin was discovered as a result of a Protective Pat Down
+HEROIN_AMOUNT,This field contains the amount of Heroin discovered as a result of a Protective Pat Down
+OTHER_CONTRABAND_I,This field indicates if Other Contraband was discovered as a result of a Protective Pat Down
+OTHER_CONTRABAND_DESCR,This field contains the description of Other Contraband discovered as a result of a Protective Pat Down
+OTHER_WEAPON_I,This field indicates if a Firearm was discovered as a result of a Protective Pat Down
+OTHER_WEAPON_DESCR,This field contains the description of Other Weapon(s) discovered as a result of a Protective Pat Down
+CANNABIS_I,This field indicates if a Firearm was discovered as a result of a Protective Pat Down
+CANNABIS_AMOUNT,This field contains the amount of Cannabis discovered as a result of a Protective Pat Down
+OTHER_CON_SUB_I,This field indicates if a Firearm was discovered as a result of a Protective Pat Down
+OTHER_CON_SUB,This field contains the description of Other Controlled Substance(s) discovered as a result of a Protective Pat Down
+OTHER_CON_SUB_AMT,This field contains the amount of Other Controlled Subastance(s) discovered as a result of a Protective Pat Down
+SEARCH_I,This field indicates if a Search beyond a Protective Pat Down was conducted
+SEARCH_CONSENT_I,This field indicates if a Search was based on consent
+SEARCH_CONTRABAND_FOUND_I,This field indicates if Contraband was discovered as a result of a Search
+SEARCH_FIREARM_I,This field indicates if a Firearm was discovered as a result of a Search
+SEARCH_COCAINE_I,This field indicates if Cocaine was discovered as a result of a Search
+SEARCH_COCAINE_AMOUNT,This field contains the amount of Cocaine discovered as a result of a Search
+SEARCH_HEROIN_I,This field indicates if Heroin was discovered as a result of a Search
+SEARCH_HEROIN_AMOUNT,This field contains the amount of Heroin discovered as a result of a Search
+SEARCH_OTHER_CONTRABAND_I,This field indicates if Other Contraband was discovered as a result of a Search
+SEARCH_OTHER_CONTRABAND_DESCR,This field contains the description of Other Contraband discovered as a result of a Search
+SEARCH_OTHER_WEAPON_I,This field indicates if Other Weapon(s) were discovered as a result of a Search
+SEARCH_OTHER_WEAPON_DESCR,This field contains the description of Other Weapon(s) discovered as a result of a Search
+SEARCH_CANNABIS_I,This field indicates if Cannabis was discovered as a result of a Search
+SEARCH_CANNABIS_AMOUNT,This field contains the amount of Cannabis discovered as a result of a Search
+SEARCH_OTHER_CON_SUB_I,This field indicates if Other Controlled Substance(s) were discovered as a result of a Search
+SEARCH_OTHER_CON_SUB_DESCR,This field contains the description of Other Controlled Substance(s) discovered as a result of a Search
+SEARCH_OTHER_CON_SUB_AMT,This field contains the amount of Other Controlled Subastance(s) discovered as a result of a Search
+EVENT_ASSIGNEED_BY_CD,"This field contains the Event Assigned by Code.  Ex: OEMC, VIEW, OTH"
+BODY_CAMERA_I,This field indicates if the stop was recorded by Body Worn Camera?
+CAR_CAMERA_I,This field indicates if the stop was recorded by In-Car Camera?
+VEHICLE_STOPPED_I,This field indicates if the stop involved a vehicle?
+INFORMATION_REFUSED_I,This field indicates if the Suspect refused to provide identifiying information.
+FACIAL_HAIR_CD,"This field contains the Vehicle Style Code. Ex: 03, 04, 08"
+GANG_OTHER_I,Gang Information - Other?
+ENFORCEMENT_TYPE_CD,"This field contains the enforcement type code.  Ex: ARR = Arrest, PSC = Personal Service Citation"
+ENFORCEMENT_ID_NO,This field contains the unique enforcement record ID.  Ex: Citation#
+CITED_VIOLATIONS_CD,This field contains any cited violations / charges
+CANNABIS_INVENTORY_NO,Inventory number of recovered Cannabis discovered as a result of a Protective Pat Down
+COCAINE_INVENTORY_NO,Inventory number of recovered Cocaine discovered as a result of a Protective Pat Down
+HEROIN_INVENTORY_NO,Inventory number of recovered Heroin discovered as a result of a Protective Pat Down
+OTHER_CON_SUB_INVENTORY_NO,Inventory number of recovered Other Controlled Substance(s) discovered as a result of a Protective Pat Down
+FIREARM_INVENTORY_NO,Inventory number of recovered Firearm discovered as a result of a Protective Pat Down
+OTHER_WEAPON_INVENTORY_NO,Inventory number of recovered Other Weapon discovered as a result of a Protective Pat Down
+ALCOHOL_I,This field indicates if Alcohol was discovered as the result of a Protective Pat Down
+ALCOHOL_INVENTORY_NO,Inventory number of recovered Alcohol discovered as a result of a Protective Pat Down
+PARA_I,This field indicates if drug Paraphernalia was discovered as the result of a Protective Pat Down
+PARA_INVENTORY_NO,Inventory number of recovered drug Paraphernalia discovered as a result of a Protective Pat Down
+STOLEN_PROPERTY_I,This field indicates if Stolen Property was discovered as the result of a Protective Pat Down
+STOLEN_PROPERTY_INVENTORY_NO,Inventory number of recovered Stolen Property discovered as a result of a Protective Pat Down
+SEARCH_PROPERTY_I,Was a Search Conducted of His/Her Effects?
+S_CANNABIS_INVENTORY_NO,Inventory number of recovered Cannabis discovered as a result of a Search
+S_COCAINE_INVENTORY_NO,Inventory number of recovered Cocaine discovered as a result of a Search
+S_HEROIN_INVENTORY_NO,Inventory number of recovered Heroin discovered as a result of a Search
+S_OTHER_CON_SUB_INVENTORY_NO,Inventory number of recovered Other Controlled Substance(s) discovered as a result of a Search
+S_FIREARM_INVENTORY_NO,Inventory number of recovered Firearm discovered as a result of a Search
+S_OTHER_WEAPON_INVENTORY_NO,Inventory number of recovered Other Weapon discovered as a result of a Search
+S_ALCOHOL_I,This field indicates if Alcohol was discovered as the result of a Search
+S_ALCOHOL_INVENTORY_NO,Inventory number of recovered Cannabis discovered as a result of a Search
+S_PARA_I,This field indicates if drug Paraphernalia was discovered as the result of a Search
+S_PARA_INVENTORY_NO,Inventory number of recovered drug Paraphernalia discovered as a result of a Search
+S_STOLEN_PROPERTY_I,This field indicates if Stolen Property was discovered as the result of a Search
+S_STOLEN_PROPERTY_INVENTORY_NO,Inventory number of recovered Stolen Property discovered as a result of a Search
+GANG_OTHER,Gang Information - Captured description if GANG_OTHER_I = 'Y'
+OTHER_DESCR,This field contains the description of Other Controlled Substance(s) discovered as a result of a Protective Pat Down
+OTHER_INVENTORY_NO,Inventory number of Other item(s) discovered as a result of a Protective Pat Down
+S_OTHER_I,This field indicates if Other item(s) were discovered as the result of a Search
+S_OTHER_DESCR,This field contains the description of Other item(s) discovered as a result of a Search
+S_OTHER_INVENTORY_NO,Inventory number of Other items discovered as a result of a Search
+NAME,Gang Name
+,
+,
+"This data set contains one record for each version of an Investigatory Stop Report.  If an ISR has been revised, there will be more than one record with the same CARD_NO but each revision will have a unique CONTACT_CARD_ID",
